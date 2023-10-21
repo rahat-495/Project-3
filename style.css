@@ -1,0 +1,1405 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body::-webkit-scrollbar{
+    background-color: rgb(223, 223, 223);
+    width: 12px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: linear-gradient(120deg, #8392FF, #63BCFC);
+    border-radius: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*header start*/
+
+
+header{
+    max-width: 100%;
+    height: 70px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+}
+
+.logo{
+    margin-left: 350px;
+    padding: 20px;
+}
+
+header div{
+    float: left;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .nav{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 385px;
+}
+
+header .nav ul{
+    list-style: none;
+}
+
+header .nav ul li{
+    float: left;
+    padding: 18px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+header .nav ul li a{
+    color: #141414;
+    font-size: 0.7rem;
+    font-weight: 700;
+    transition: all ease 0.3s;
+}
+
+header .nav ul li a:hover{
+    color: #8392fd;
+    transition: all ease 0.3s;
+}
+
+.checkbtn{
+    display: none;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.9);
+    float: right;
+    line-height: 80px;
+    margin-right: -350px;
+}
+
+#check{
+    display: none;
+}
+
+/*header end*/
+
+/*Section 1 start*/
+
+.section1{
+    flex-wrap: wrap;
+    background-color: #F9F9FF;
+    width: 100%;
+    height: 620px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section1 div{
+    width: 50%;
+}
+
+.section1 .div1{
+    position: relative;
+    left: 345px;
+}
+
+.section1 .div1 h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: -120px;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.section1 .div1 h1{
+    font-size: 50px;
+    position: relative;
+    top: -100px;
+}
+
+.section1 .div1 p{
+    width: 600px;
+    position: relative;
+    top: -80px;
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 25px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.section1 .div1 button{
+    width: 180px;
+    height: 45px;
+    position: relative;
+    top: -50px;
+    color: white;
+    outline: none;
+    border: none;
+    background: linear-gradient(120deg, #8392FF, #63BCFC);
+    border-radius: 2px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.section1 .div1 button:hover{
+    box-shadow: 2px 10px 50px #8392ff9d;
+    border: 1px solid white;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+/*Section 1 end*/
+
+
+/*Section 2 Start*/
+
+.section2{
+    max-width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 80px;
+}
+
+.section2 div{
+    width: 40%;
+}
+
+.image img{
+    position: relative;
+    left: 130px;
+}
+
+.section2 .text{
+    position: relative;
+    left: 130px;
+}
+
+.text h3{
+    font-weight: normal;
+    font-family: sans-serif;
+    letter-spacing: 0px;
+    font-size: 13px;
+    color: black;
+    position: relative;
+    top: -80px;
+}
+
+.text h1{
+    font-size: 32px;
+    font-weight: bold;
+    position: relative;
+    top: -50px;
+}
+
+.text p{
+    color: rgba(0, 0, 0, 0.5);
+    width: 60%;
+    position: relative;
+    top: -10px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 23px;
+    font-size: 15px;
+}
+
+.text button{
+    outline: none;
+    border: none;
+    background: linear-gradient(120deg, #8392FF, #63BCFC);
+    width: 180px;
+    height: 45px;
+    position: relative;
+    top: 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    word-spacing: 1px;
+    border-radius: 2px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.text button:hover{
+    box-shadow: 2px 10px 50px #8392ff9d;
+    border: 1px solid white;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+/*Section 2 End*/
+
+
+/*Section 3 Start*/
+
+.textser{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 1400px;
+    text-align: center;
+}
+
+.textser h1{
+    margin: 15px;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.textser p{
+    width: 650px;
+    display: flex;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    word-spacing: 2px;
+    font-size: 14px;
+}
+
+/*Section 3 end*/
+
+
+/*Section 4 start*/
+
+.services{
+    width: 70%;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+    top: 250px;
+    text-align: center;
+    margin-top: 100px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-bottom:400px;
+    flex-wrap: wrap;
+}
+
+.icons{
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+.icons a{
+    color: black;
+}
+
+.ser1 .ser2{
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+.ser1 .d, .ser2 .d{
+    width: 32%;
+    height: 180px;
+    float: left;
+    margin-top: 50px;
+    position: relative;
+    left: 25px;
+}
+
+.d p{
+    width: 300px;
+    margin: 0 auto;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.d .icons{
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    transition: all 0.2s ease 0.1s;
+}
+
+.d:hover a:first-child{
+    color: #8392FF;
+    transition: all 0.2s ease 0.1s;
+}
+
+.d:hover:hover h1{
+    color: #8392FF;
+    transition: all 0.2s ease 0.2s;
+}     
+
+.d .icons h1{
+    margin-top: 10px;
+    font-size: 25px;
+    color: black;
+    cursor: pointer;
+}
+
+.d .icons a{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.d:hover{
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+/*Section 4 end*/
+
+
+/*Section 5 start*/
+
+.section5{
+    width: 100%;
+    height: 250px;
+    background: linear-gradient(120deg, #8392FF, #63BCFC);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.section5 div{
+    width: 300px;
+    cursor: pointer;
+}
+
+.section5 div:hover{
+    color: rgb(209, 209, 209);
+}
+
+.section5 h1{
+    font-size: 2rem;
+}
+
+.section5 p{
+    font-size: 15px;
+}
+
+/*section 5 end*/
+
+
+/*Section 6 Start*/
+
+.section6{
+    width: 75%;
+    height: auto;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+
+.heading h1{
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 40px;
+    padding-top: 40px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+.heading p{
+    color: rgba(0, 0, 0, 0.7);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+
+.choses{
+    width: 100%;
+    display: flex;
+    top: -50px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.choses div{
+    width: 90px;
+}
+
+.choses h4{
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 23px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.choses h4:hover{
+    color: #8392fd;
+}
+
+.imagess{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.imagess h1{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.imagess p{
+    text-align: center;
+    margin-top: 7px;
+    font-size: 18px;
+}
+
+.imagess .divs{
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.divs figure{
+    background: linear-gradient(45deg, #8392FF 40%, #63BCFC 100%);
+    overflow: hidden;
+    width: 339;
+    height: 340;
+    border-radius: 17px;
+    position: relative;
+    transition: all ease 0.2s;
+}
+
+.divs figure img:hover{
+    opacity: 0.4;
+    transition: all ease 0.2s;
+}
+
+/*Section 6 End*/
+
+/*Section 7 Start*/
+
+.section7{
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    position: relative;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    background-color: #F9F9FF;
+}
+
+.abouttext{
+    text-align: center;
+    padding: 20px;
+}
+
+.abouttext h1{
+    font-size: 30px;
+    padding-bottom: 15px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.abouttext .p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0 auto;
+    width: 250px;
+    text-align: center;
+}
+
+.aboutbox{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+    display: flex;
+}
+
+.aboutbox .abox{
+    width: 45%;
+    height: 200px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+    top: 50px;
+    cursor: pointer;
+    transition: all ease 0.2s;
+}
+
+.aboutbox .abox:hover{
+    background-color: rgb(201, 201, 201);
+    transition: all ease 0.1s;
+}
+
+.abox:hover p:nth-child(1){
+    color: white;
+    transition: all ease 0.2s;
+}
+
+.abox:hover h2{
+    color: white;
+    transition: all ease 0.3s;
+}
+
+.abox:hover p:nth-child(3){
+    color: white;
+    transition: all ease 0.4s;
+}
+
+.abox .p1, .heading2{
+    position: relative;
+    left: 80px;
+    top: 20px;
+}
+
+.abox p:nth-child(1){
+    width: 500px;
+    margin-bottom: 20px;
+    line-height: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.abox h2{
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 30px;
+}
+
+.abox p:nth-child(2){
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.arros{
+    margin: 0 auto;
+    position: relative;
+    top: 90px;
+}
+
+.arros div{
+    width: 50px;
+    height: 40px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.arrow{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+
+.arrow:hover{
+    background-color: #8392FF;
+    border: 1px solid white;
+    border-radius: 2px;
+    color: white;
+    transition: all ease 0.2s;
+    border-radius: 3px;
+}
+
+
+/*Section 7 End*/
+
+/*Section 8 Start*/
+
+.section8{
+    width: 80%;
+    height: 800px;
+    margin-bottom: 150px;
+    position: relative;
+    margin: 0 auto;
+    bottom: 100px;
+}
+
+.section8 .texts{
+    width: 100%;
+    text-align: center;
+}
+
+.section8 .texts h1{
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 6px;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.section8 .texts p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.cards{
+    width: 100%;
+    height: 650px;
+    margin: 0 auto;
+    padding-top: 50px;
+    display: flex;
+    text-align: center;
+    position: relative;
+    left: 260px;
+}
+
+.cards .card{
+    width: 16%;
+    background-color: #F9F9FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.card:hover{
+    background: linear-gradient(90deg, #8392FF, #63BCFC);
+    color: white;
+    transform: scale(1.1);
+    transition: all ease 0.3s;
+}
+
+.card:hover .circle1{
+    border: 25px solid #dde2ff;
+}
+
+.card .circle1{
+    width: 120px;
+    height: 120px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    background-color: none;
+    background-color: transparent;
+    border: 25px solid #8392fd;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card:hover p:nth-child(2){
+    color: white;
+}
+
+.card:hover p:nth-child(4){
+    color: white;
+}
+
+.card:hover p:nth-child(6){
+    color: white;
+}
+
+.card:hover p:nth-child(8){
+    color: white;
+}
+
+.itemtext .h2{
+    margin-bottom: 7px;
+    font-size: 20px;
+}
+
+.itemtext p:nth-child(2){
+    margin-bottom: 35px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.itemtext hr{
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.itemtext p:nth-child(4){
+    margin-bottom: 17px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.itemtext p:nth-child(6){
+    margin-bottom: 17px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.itemtext p:nth-child(8){
+    margin-bottom: 17px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.card h1:nth-child(3){
+    margin-top: 50px;
+}
+
+.card button{
+    position: relative;
+    bottom: 24px;
+    outline: none;
+    border: none;
+    width: 180px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+    display: none;
+}
+
+.card:hover button{
+    display: block;
+}
+
+/*Section 8 End*/
+
+/*Section 9 Start*/
+
+.section9{
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(90deg, #8392FF, #63BCFC);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section9 div{
+    width: 14%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease 0.2s;
+}
+
+.section9 div:hover{
+    opacity: 0.5;
+    transition: all ease 0.2s;
+}
+
+/*Section 9 End*/
+
+/*Section Footer Start*/
+
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: #04091E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+footer .newsdiv, .fabout{
+    width: 20%;
+    margin-right: 20px;
+}
+
+.fabout h1{
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: rgb(211, 211, 211)
+}
+
+.fabout p{
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: rgb(189, 189, 189);
+    font-size: 14px;
+}
+
+.fabout p .color{
+    color: #8392FF;
+}
+
+.newsdiv h1{
+    font-size: 18px;
+    position: relative;
+    bottom: 30px;
+    color: rgb(211, 211, 211)
+}
+
+.newsdiv p{
+    margin-bottom: 37px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: rgb(189, 189, 189);
+    font-size: 14px;
+}
+
+.socialm h1{
+    font-size: 18px;
+    color: rgb(211, 211, 211);
+    position: relative;
+    bottom: 60px;
+}
+
+.socialm p{
+    position: relative;
+    bottom: 30px;
+    font-size: 14px;
+    color: rgb(189, 189, 189);
+}
+
+.socialm i{
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 3px;
+    color: white;
+}
+
+.textareas{
+    width: 350px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1px;
+    color: black;
+    position: relative;
+}
+
+.textareas input{
+    width: 280px;
+    height: 35px;
+    position: relative;
+    left: -0px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.textareas .arrowicon{
+    width: 55px;
+    height: 50px;
+    background-color: #8392FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: -8px;
+    cursor: pointer;
+}
+
+/*Section Footer End*/
+
+/*Moblie Veiw*/
+
+/*Header Part*/
+
+@media (max-width:768px){
+    
+    header {
+        width: 100%;
+        height: auto;
+    }
+    header .logo{
+        margin-left:30px ;
+        padding: 20px;
+    }
+    .checkbtn{
+        display: block !important;
+      }
+      
+      
+
+
+      header .nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #F9F9FF;
+        top: 54px;
+        left: -200%;
+        transition: all .1s;     
+      }
+      header .nav ul li{
+        line-height: 30px; 
+        clear: both; 
+        margin-top: 15px;
+      }
+      #check:checked ~ ul{
+        left: 0;
+      } 
+
+      header .nav ul li a{
+        font-size: 20px; 
+        text-align: center;
+
+} 
+
+/*Section 1 Part*/
+
+@media (max-width:768px){
+    .section1{
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 10px;
+        margin-bottom: 100px
+    }
+    .section1 .div1{
+        width: 50%;
+        height: 100px;
+        left: 8px;
+        margin: 0 auto;
+    }
+    .section1 .div1 h3{
+        position: relative;
+        top: -110px;
+        font-size: 10px;
+    }
+    .section1 .div1 h1{
+        font-size: 25px;
+    }
+    .section1 .div1 p{
+        width: 230px;
+        font-size: 10px;
+    }
+    .section1 .div1 button{
+        position: relative;
+        top: -35px;
+        width: 150px;
+        height: 30px;
+    }
+    .section1 .div2{
+        width: 50%;
+        height: auto;
+    }
+    .section1 .div2 img{
+        width: 250px;
+    }
+}
+
+/*Section 2 Part*/
+
+@media (max-width:768px){
+    .section2{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .section2 .image{
+        width: 50%;
+        height: auto;
+        display: flex;
+        position: absolute;
+        top: -20px;
+        left: -130px;
+        align-items: center;
+    }
+    .section2 .image img{
+        width: 250px;
+    }
+    .section2 .text{
+        width: 50%;
+        height: 100px;
+        position: relative;
+        right: 0px;
+    }
+    .section2 .text h3{
+        position: relative;
+        top: -15px;
+        font-size: 10px;
+    }
+    .section2 .text h1{
+        position: relative;
+        top: -13px;
+        font-size: 15px;
+    }
+    .section2 .text p{
+        width: 200px;
+        font-size: 10px;
+        line-height: 12px;
+        position: relative;
+        top: -10px;
+    }
+    .section2 .text button{
+        position: relative;
+        top: -5px;
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+    }
+}
+
+/*Section 3 Part*/
+
+@media (max-width:768px){
+    .textser{
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 820px;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .textser h1{
+        font-size: 25px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .textser p{
+        font-size: 12px;
+        width: 400px;
+    }
+}
+
+/*Section 4 Part*/
+
+@media (max-width:768px){
+    .services{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .services .ser1, .ser2{
+        width: 100%;
+        height: auto;
+    }
+    .services .ser1 .d,.ser2 .d {
+        width: 32%;
+        left: 9px;
+    }
+    .d .icons{
+        width: 100%;
+        position: relative;
+        top: -10px;
+    }
+    .d .icons i{
+        font-size: 20px;
+    }
+    .d .icons h1{
+        font-size: 15px;
+    }
+    .d .icons abbr{
+        text-decoration: none;
+    }
+    .d p{
+        width: 100px;
+        font-size: 10px;
+        position: relative;
+        top: -20px;
+    }
+}
+
+/*Section 5 Part*/
+
+@media (max-width:768px){
+    .section5{
+        width: 100%;
+        height: 150px;
+    }
+    .section5 div{
+        width: 20%;
+    }
+    .section5 div h1{
+        font-size: 25px;
+    }
+    .section5 div p{
+        font-size: 10px;
+    }
+}
+
+/*Section 6 Part*/
+
+@media (max-width:768px){
+    .heading h1{
+        font-size: 20px;
+    }
+    .choses{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        position: relative;
+        top: -100px;
+    }
+    .choses div{
+        width: 15%;
+    }
+    .choses div h4{
+        font-size: 10px;
+    }
+}
+
+/*Section 7 Part*/
+
+@media (max-width:768px){
+    .section7{
+        width: 100%;
+        height: 500px;
+    }
+    .abouttext{
+        width: 100%;
+        position: relative;
+        top: 0px;
+    }
+    .abouttext h1{
+        font-size: 25px;
+    }
+    .abouttext ,.p{
+        font-size: 14px;
+        margin-left: -20px;
+        font-family: serif;
+        color: rgba(0, 0, 0, 0.5);
+    }
+    .aboutbox{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .aboutbox .abox{
+        position: relative;
+        left: -20px;
+        margin-right: 15px;
+    }
+    .aboutbox .abox .p1{
+        position: relative;
+        top: 8px;
+        left: 3px;
+        width: 150px;
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .aboutbox .abox .heading2{
+        position: relative;
+        top: 0px;
+        left: 3px;
+        font-size: 25px;
+    }
+    .aboutbox .abox .p1:nth-child(3){
+        font-size: 13px;
+    }
+    .arros{
+        position: relative;
+        top: 50px;
+    }
+}
+
+/*Section 8 Part*/
+
+@media (max-width:768px){
+    .section8{
+        width: 80%;
+        height: 800px;
+        margin: 0 auto;
+        margin-bottom: 70px;
+        position: relative;
+    }
+    .section8 .texts{
+        width: 100%;
+        height: auto;
+    }
+    .section8 .texts h1{
+        font-size: 30px;
+    }
+    .cards{
+        width: 100%;
+        height: 450px;
+        margin: 0 auto;
+        position: relative;
+        top: 250px;
+        left: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .cards .card{
+        width: 25%;
+        height: 450px;
+        background-color: #F9F9FF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card .circle1{
+        width: 40px;
+        height: 40px;
+        border: 10px solid #8392fd;
+    }
+    .card:hover .circle1{
+        width: 30px;
+        height: 60px;
+        border: 10px solid #dde2ff;
+    }
+    .itemtext .h2{
+        margin-top: -10px;
+        margin-bottom: 0px;
+        font-size: 17px;
+    }
+    .itemtext p:nth-child(2){
+        margin-top: 5px;
+        margin-bottom: 35px;
+        font-size: 10px;
+        color: rgba(0, 0, 0, 0.6);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .itemtext hr{
+        width: 90px;
+        margin: 0 auto;
+        margin-top: -5px;
+        margin-bottom: 10px;
+        color: rgba(0, 0, 0, 0.3);
+    }
+    .itemtext p:nth-child(4){
+        margin-bottom: 17px;
+        font-size: 12px;
+        color: rgba(0, 0, 0, 0.6);
+    }
+    
+    .itemtext p:nth-child(6){
+        margin-bottom: 17px;
+        font-size: 12px;
+        color: rgba(0, 0, 0, 0.6);
+    }
+    
+    .itemtext p:nth-child(8){
+        width: 90px;
+        margin-bottom: 17px;
+        font-size: 12px;
+        color: rgba(0, 0, 0, 0.6);
+    }
+    .card button{
+        width: 80px;
+        height: 50px;
+        position: relative;
+        bottom: 20px;
+        border-radius: 2%;
+    }
+    .card h1:nth-child(3){
+        font-size: 18px;
+    }
+}
+
+/*Section 9 Part*/
+
+@media (max-width:768px){
+    .section9{
+        width: 100%;
+        height: 100px;
+    }
+    .section9 div{
+        position: relative;
+        left: 10px;
+        width: 14%;
+        margin-right: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        transition: all ease 0.2s;
+        cursor: pointer;
+    }
+    .section9 div img{
+        width: 60px;
+    }
+}
+
+/*Footer Part*/
+
+@media (max-width:768px){
+    footer{
+        width: 100%;
+        height: 250px;
+    }
+    .fabout{
+        width: 35%;
+        margin-right: 20px;
+    }
+    .fabout h1{
+        font-size: 12px;
+        position: relative;
+        top: 10px;
+        left: 0px;
+    }
+    .fabout p{
+        font-size: 10px;
+        width: 120px;
+    }
+    .newsdiv{
+        width: 20%;
+        margin-right: 20px;
+    }
+    .newsdiv h1{
+        font-size: 14px;
+        position: relative;
+        top: -43px;
+        left: 0px;
+    }
+    .newsdiv p{
+        position: relative;
+        top: -17px;
+        font-size: 10px;
+    }
+    .textareas{
+        position: relative;
+        top: 40px;
+        left: 0px;
+        width: 150px;
+        height: 35px;
+    }
+    .textareas input{
+        width: 100px;
+        font-size: 10px;
+    }
+    .textareas .arrowicon{
+        width: 40px;
+        height: 35px;
+    }
+    .socialm{
+        width: 20%;
+    }
+    .socialm h1{
+        position: relative;
+        top: -78px;
+        font-size: 14px;
+    }
+    .socialm p{
+        position: relative;
+        top: -55px;
+        font-size: 10px;
+    }
+    .socialm i{
+        position: relative;
+        top: -30px;
+    }
+}
