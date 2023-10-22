@@ -328,6 +328,10 @@ header .nav ul li a:hover{
     transition: all 0.2s ease 0.1s;
 }
 
+.d .icons abbr{
+    text-decoration: none;
+}
+
 .d:hover a:first-child{
     color: #8392FF;
     transition: all 0.2s ease 0.1s;
